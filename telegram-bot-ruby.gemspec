@@ -18,7 +18,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'httmultiparty'
-  spec.add_dependency 'persistent_httparty'
   spec.add_dependency 'virtus'
 
   spec.add_development_dependency 'bundler', '~> 1.9'

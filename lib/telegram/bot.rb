@@ -1,5 +1,4 @@
 require 'httmultiparty'
-require 'persistent_httparty'
 require 'virtus'
 
 require 'telegram/bot/types'
