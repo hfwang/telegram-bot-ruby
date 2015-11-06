@@ -125,14 +125,6 @@ end
 - Telegram's user id (required)
 - hash of additional properties (optional)
 
-## Connection pool size
-
-Sometimes you need to do some heavy work in another thread and send response from there. In this case you have to increase your connection pool size (by default it's *1*). You can do it by setting env variable `TELEGRAM_BOT_POOL_SIZE`:
-
-```shell
-$ TELEGRAM_BOT_POOL_SIZE=4 ruby bot.rb
-```
-
 ## Contributing
 
 1. Fork it
